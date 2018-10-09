@@ -1,4 +1,4 @@
-# DEPLOY A CONTRACT CHALLENGE
+# CHALLENGE : DEPLOY A CONTRACT
 
 The idea of this challenge is to test that you know how to deploy a contract. We'll do that with Remix and Metamask.
 
@@ -21,7 +21,7 @@ contract (that we'll never see) which will, in turn, deploy the contract you see
 network. After the transaction is completed (i.e.: some Ropsten miner included it in a block), you will see the address of the
 just-deployed contract. You can examine it in your favorite blockchain explorer.
 
-## Complete Challenge
+## Complete challenge
 
 As we can see, the contract we just deployed is a very simple one. It contains a single function, isComplete, which upon calling will always return
 true. By clicking "Check Solution", what we're secretly doing is calling another contract, CaptureTheFlag (again, we'll never
