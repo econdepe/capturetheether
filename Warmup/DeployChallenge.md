@@ -1,8 +1,8 @@
-# Deploy a contract
+# DEPLOY A CONTRACT CHALLENGE
 
 The idea of this challenge is to test that you know how to deploy a contract. We'll do that with Remix and Metamask.
 
-## Deploy a contract
+## Deploy to begin
 
 First of all, it's important to know that we'll be working (throughout all challenges) in the Ropsten test network**. We can
 connect to this network in different ways:
