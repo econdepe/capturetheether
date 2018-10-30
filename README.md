@@ -10,7 +10,7 @@ describe how I solved them**. The purpose is two-fold:
 
 2. The solutions might be helpful for someone who's starting in the world of Ethereum smart contracts, like I am at the moment.
 
-I will use just Remix and Metamask to solve the challenges, so you need to know what those two do. If you don't know, don't worry.
+I will use just Remix and Metamask to solve the challenges, so you need to know what those two do. If you don't, no need to worry.
 You can read about them, test them quickly, and come back in a few hours.
 I will use Solidity (the smart contracts at capturetheether are written in Solidity), and if you can understand the examples in
 the section 'Solidity by Example' from https://solidity.readthedocs.io you're good to go. Of course we will need more than that
