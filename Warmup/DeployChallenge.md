@@ -4,7 +4,7 @@ The idea of this challenge is to test that you know how to deploy a contract. We
 
 ## Deploy to begin
 
-First of all, it's important to know that we'll be working (throughout all challenges) in the Ropsten test network**. We can
+First of all, it's important to know that we'll be working (throughout all challenges) in the Ropsten test network***. We can
 connect to this network in different ways:
 1. Directly if we maintained a Ropsten node.
 2. Connect through a known node. This could be done for example through an INFURA node: https://infura.io/
@@ -30,7 +30,7 @@ then the smart contract CaptureTheFlag will assign us (i.e.: our Ropsten address
 At this point the challenge has been completed, and the webpage will show us presumably a joyful hacker ;)
 
 
-### ** What is an Ethereum test network?
+### *** What is an Ethereum test network?
 
 That's simply a blockchain with all the fundamental properties of the main Ethereum blockchain (some parameters,
 such as block confirmation rate or consensus algorithm may vary), but where Ether has no value, i.e.: we can get it for free.
