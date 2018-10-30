@@ -7,7 +7,7 @@ the call.
 
 1. First we deploy on the Ropsten network the smart contract *CallMe* by clicking on "Begin Challenge". The address of the
 contract will be displayed after the deployment has been confirmed.
-2. To interact with the deployed contract via Remix we are going to load it there**. For that we copy the smart contract in a
+2. To interact with the deployed contract via Remix we are going to load it there***. For that we copy the smart contract in a
 new .sol file in the Remix folder "browser". Then we compile it (you can ignore the warnings) in the "Compile" tab on the right.
 This will make it appear in the list of compiled contracts in the "Run" tab. We enter the Ropsten address we obtained before and
 click "At Address". The contract will be successfully loaded if it appears in "Deployed contracts".
@@ -18,7 +18,7 @@ once the function `callme`.
 4. You can check using its getter that the value of the variable `isComplete` is `true`. Click on "Check solution" to end the
 challenge.
 
-### ** Loading deployed contracts in Remix
+### *** Loading deployed contracts in Remix
 To load in Remix a contract that has been deployed in some network, we need access to that network and its ABI (ABI stands for
 Application Binary Interface; it essentially contains the information about the functions and variables contained in a contract
 written in a machine-friendly way; read more [here](https://solidity.readthedocs.io/en/v0.4.21/abi-spec.html#)). You can follow
