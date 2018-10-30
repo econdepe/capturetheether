@@ -16,7 +16,7 @@ take the whole age of the universe to compute 2^256 hashes... :dizzy_face:
 
 Luckily for us and our electricity bill, the trick here is that we know that the lucky number must be a `uint8`, and there are only
 2^8 = 256 of those. Hashing all of them, and checking which one gives the hash we see in the contract, is a matter of seconds.
-This check can be performed in a solidity compiler running on a PC, but we can use Remix too. In this way
+This check can be performed in a Solidity compiler running on a PC, but we can use Remix too. In this way
 we stick to our minimum set of tools.
 
 ## Steps to follow
