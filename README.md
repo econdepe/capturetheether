@@ -4,7 +4,7 @@ If you are starting to program Ethereum smart contracts and you want to test how
 there's a wonderful free learning resource at https://capturetheether.com. Check it out before continuing.
 
 Now that you've understood what's the goal of this learning game, i.e. to solve a series of challenges; my aim here is to
-describe how I solved them**. The purpose is two-fold:
+describe how I solved them***. The purpose is two-fold:
 
 1. (& main) To keep track of my solutions in the cloud, so I can come back to them whenever I want.
 
@@ -16,4 +16,4 @@ I will use Solidity (the smart contracts at capturetheether are written in Solid
 the section 'Solidity by Example' from https://solidity.readthedocs.io you're good to go. Of course we will need more than that
 along the way, but we're here to learn!
 
-** I will be updating this repository as I keep playing the game, which I do every now and then.
+*** I will be updating this repository as I keep playing the game, which I do every now and then.
