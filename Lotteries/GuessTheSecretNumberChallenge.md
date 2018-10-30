@@ -1,11 +1,11 @@
 # CHALLENGE : GUESS THE SECRET NUMBER
 
-The lottery consists in guessing an 8-bit unsigned (i.e. positive) integer.
+The lottery consists in guessing an 8-bit unsigned (i.e. positive) integer. This challenge is very similar to the previous
+one (Guess The Number), only that now what's stored on-chain is the hash of the number, rather than the number itself.
 
 ## Strategy
 
-This challenge is very similar to the previous one, only that now what's stored on-chain is the hash of the number, rather than
-the number itself. At the moment there is no known way of reversing the keccak256 hash function***. What this means is that no
+At the moment there is no known way of reversing the keccak256 hash function***. What this means is that no
 attack algorithm will perform much better than sheer brute-force. Brute force is an essentially useless attack since the number
 of different hashes is a humongous number, 2^256. It's hard to visualize how big this number is, but let's try:
 
