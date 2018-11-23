@@ -35,14 +35,14 @@ operations in our smart contracts. Integer overflow is a well-known issue in dif
 no exception.
 
 For this particular example, there is only one place where integer overflow could occur with dangerous
-consequences, which is in the function `buy`. It would be enough to include a throw error statement when integer overflow
+consequences, which is in the function `buy`. It would be enough to include a *throw error* statement when integer overflow
 happened, but a wider-scope solution would be to use a library that automatically throws errors in case of integer overflows.
 Such a library exists, and it is called [SafeMath](
 https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/math/SafeMath.sol).
 
 ### Bonus track
 
-The challenge has been solved, but the solution is not unique. Namely how much balance should be left in the smart contract?
+The challenge has been solved, but the solution is not unique. Namely, how much balance should be left in the smart contract?
 The challenge only asks this balance to be less than 1 ether, but a natural question would be whether we can "steal" all its
 money (after all, we payed for this money!). Indeed, once the TokenSaleChallenge smart contract has been deployed, it is
 possible to search in https://etherscan.io/ for similar contracts. We will see in there all the smart contracts deployed by
@@ -52,6 +52,6 @@ commented above. But some will have 0 ether! How can we be greedy and do that as
 As we said above, buying X tokens costs us (X*10^18) % 2^256 wei. If we make this price equal to an integer number of ethers,
 we will be able to recover that money later by selling tokens (we can only sell an integer number of them).  In particular,
 if we want to pay 1 ether = 10^18 wei, we need X such that (X*10^18) % 2^256 = 10^18, or equivalently
-X*10^18 - 10^18 = 2^256*K, where K is some positive integer. There are many solutions to this Diophantine equation, but a
-simple one is X = 2^238 + 1, K = 5^18. Therefore, if we buy 2^238 + 1 tokens, and then sell 2 of them will leave empty
+X\*10^18 - 10^18 = 2^256\*K, where K is some positive integer. There are many solutions to this Diophantine equation, but a
+simple one is X = 2^238 + 1, K = 5^18. Therefore, if we buy 2^238 + 1 tokens, and then sell 2 of them, we will empty
 the balance of the TokenSaleChallenge smart contract. :trollface:
