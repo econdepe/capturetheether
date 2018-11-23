@@ -16,4 +16,6 @@ I will use Solidity (the smart contracts at capturetheether are written in Solid
 the section 'Solidity by Example' from https://solidity.readthedocs.io you're good to go. Of course we will need more than that
 along the way, but we're here to learn!
 
+In the folder **./OriginalContracts** I have simply copied the contracts from https://capturetheether.com, just in case those disappear at some point.
+
 *** I will be updating this repository as I keep playing the game, which I do every now and then.
